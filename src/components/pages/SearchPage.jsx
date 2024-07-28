@@ -5,7 +5,7 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { Toaster, toast } from "react-hot-toast";
 import NoDataMessage from '../common/NoDataMessage';
 import axios from 'axios';
-import { filterPaginationData } from '../common/FilterPaginationData';
+import filterPaginationData from '../common/filterPaginationData'
 import SearchResultCard from '../common/SearchResultCard';
 import PaginationFooter from '../common/PaginationFooter';
 
